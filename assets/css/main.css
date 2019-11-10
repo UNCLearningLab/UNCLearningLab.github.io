@@ -2359,7 +2359,9 @@ input, select, textarea {
 		}
 
 			.image.main img {
+				object-fit: cover;
 				width: 100%;
+				max-height: 250px;
 			}
 
 			@media screen and (max-width: 736px) {
@@ -2383,13 +2385,14 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px #c9c9c9;
+			/* border: solid 1px #c9c9c9; */ 
 			border-left: 0;
 			border-right: 0;
 		}
 
-			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(144, 144, 144, 0.075);
+			table tbody tr:nth-child(1) {
+				background-color: rgba(126, 202, 246, 0.55);
+				line-height: 50px;
 			}
 
 		table td {
@@ -2401,6 +2404,7 @@ input, select, textarea {
 			font-weight: 900;
 			padding: 0 0.75em 0.75em 0.75em;
 			text-align: left;
+			min-width: 50px;
 		}
 
 		table thead {
