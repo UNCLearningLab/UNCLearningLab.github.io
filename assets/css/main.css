@@ -2712,7 +2712,7 @@ input, select, textarea {
 
 			.tiles article.style1 > .image:before {
 				background-color: #f2849e;
-				display:inline-block
+				max-height: 0.5s ease;
 			}
 
 			.tiles article.style2 > .image:before {
