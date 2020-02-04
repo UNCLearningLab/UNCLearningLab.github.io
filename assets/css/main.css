@@ -2835,6 +2835,8 @@ input, select, textarea {
 	height: 300px;
 	width: 300px;
 	overflow: hidden; 
+	vertical-align:middle;
+    text-align:center;
 }
 #inner img { 
 	position: absolute;
