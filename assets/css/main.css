@@ -2836,6 +2836,7 @@ input, select, textarea {
 	width: 300px;
 	overflow: hidden; 
 }
+#inner img { position: absolute; right: 0; bottom: 0; }
 /* Header */
 
 	#header {
